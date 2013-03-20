@@ -1,0 +1,10 @@
+/* 
+*  /home/eric/.mozilla/firefox/mwad0hks.default/chrome/userChrome.css
+*  Global Font Setting for firefox UI 
+*/
+
+@namespace xul url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+*{	
+
+	font-family:"Droid Sans","Droid Serif","WenQuanYi Micro Hei"!important;
+}
