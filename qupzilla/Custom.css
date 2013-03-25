@@ -1,5 +1,9 @@
-/* /home/eric/.qupzilla/profiles/default/Custom.css */
-/* global font for Qupzilla */
 *{
-	 font-family:"Hiragino Sans GB","Droid Sans", "Droid Serif";
+	font-smooth:always!important;
+	text-shadow: none!important; 
+	font-family:"Hiragino Sans GB","DejaVu Serif", "DejaVu Sans","URW Chancery L" !important;
+}
+body { -webkit-font-smoothing: antialiased !important; }
+input, code {
+	font-size: 15px!important; 
 }

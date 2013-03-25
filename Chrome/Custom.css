@@ -2,19 +2,12 @@
 
 @font-face{
 
-	font-family:"Droid Sans","Droid Serif","Open Sans","Hiragino Sans GB","WenQuanYi Micro Hei"!important;	
-
+	font-family:"Droid Sans","Droid Serif","Hiragino Sans GB","WenQuanYi Micro Hei"!important;	
 	src: url('../../includes/fonts/Droid Sans.eot');
 	src: url('../../includes/fonts/Droid Sans.eot?#iefix') format('eot'),
 	url('../../includes/fonts/Droid Sans.woff') format('woff'),
 	url('../../includes/fonts/Droid Sans.ttf') format('truetype'),
 	url('../../includes/fonts/Droid Sans.svg') format('svg');
-	
-	src: url('../../includes/fonts/Open Sans.eot');
-	src: url('../../includes/fonts/Open Sans.eot?#iefix') format('eot'),
-	url('../../includes/fonts/Open Sans.woff') format('woff'),
-	url('../../includes/fonts/Open Sans.ttf') format('truetype'),
-	url('../../includes/fonts/Open Sans.svg') format('svg');
 
 	src: url('../../includes/fonts/Droid Serif.eot');
 	src: url('../../includes/fonts/Droid Serif.eot?#iefix') format('eot'),
@@ -40,19 +33,28 @@
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	@font-face{
-		font-family:"Droid Sans","Droid Serif","Open Sans","Hiragino Sans GB","WenQuanYi Micro Hei"!important;	
+		font-family:"Droid Sans","Droid Serif","Hiragino Sans GB","WenQuanYi Micro Hei"!important;	
 		src: url('../../includes/fonts/Droid Sans.svg') format('svg');
-		src: url('../../includes/fonts/Open Sans.svg') format('svg');
 		src: url('../../includes/fonts/Droid Serif.svg') format('svg');
-		src: url('../../includes/fonts/WenQuanYi Micro Hei.svg') format('svg');
 		src: url('../../includes/fonts/Hiragino Sans GB.svg') format('svg');
+		src: url('../../includes/fonts/WenQuanYi Micro Hei.svg') format('svg');
 	}
 }
 
-body { -webkit-font-smoothing: antialiased !important; }
-
 *{
-	font-smooth:always!important;
-	text-shadow: none!important; 
-	font-family:"Droid Sans","Droid Serif","Open Sans","Hiragino Sans GB","WenQuanYi Micro Hei"!important;	
+	  /* text shaow */
+	font-smooth: always!important;
+	text-shadow: none!important; ﻿
+	position: relative;
+	cursor: pointer;﻿
+	font-family:"Droid Sans","Droid Serif","Hiragino Sans GB", "WenQuanYi Micro Hei" !important;	
+}
+body { 
+	-webkit-font-smoothing: antialiased !important; 
+}
+a{
+	font-family:"Droid Sans","WenQuanYi Micro Hei"!important;
+}
+h1,h2,h3,h4,h5,h6,b{
+	font-family:"Droid Serif", "WenQuanYi Micro Hei"!important;
 }

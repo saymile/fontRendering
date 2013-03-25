@@ -2,8 +2,6 @@
 @namespace xul url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 /* Global Font Setting for firefox Content */
 
-body { -webkit-font-smoothing: antialiased !important; }
-
 input, code, div , p {
 	font-size: 15px!important; 
 }
@@ -12,5 +10,5 @@ input, code, div , p {
 	font-size: 15px;
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family:"Hiragino Sans GB","Droid Serif","Droid Sans Mono"!important;
+	font-family:"Hiragino Sans GB","Microsoft YaHei","Open Sans","Droid Serif","Droid Sans Mono"!important;
 }
