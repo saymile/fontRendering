@@ -7,8 +7,7 @@ input, code, div , p {
 }
 
 *{
-	font-size: 15px;
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family:"Hiragino Sans GB","Microsoft YaHei","Open Sans","Droid Serif","Droid Sans Mono"!important;
+	font-family:"Hiragino Sans GB","URW Gothic L","Droid Sans"!important;
 }
