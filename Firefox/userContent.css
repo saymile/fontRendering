@@ -5,11 +5,12 @@
 body { -webkit-font-smoothing: antialiased !important; }
 
 input, code, div , p {
-	font-size: 14px!important; 
+	font-size: 15px!important; 
 }
 
 *{
+	font-size: 15px;
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family:"Hiragino Sans GB","Open Sans","Droid Serif","Droid Sans Mono"!important;
+	font-family:"Hiragino Sans GB","Droid Serif","Droid Sans Mono"!important;
 }
