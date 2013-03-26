@@ -2,12 +2,12 @@
 @namespace xul url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 /* Global Font Setting for firefox Content */
 
-input, code, div , p {
-	font-size: 15px!important; 
+@-moz-document domain(plus.google.com) {
+	div {
+		font-size: 15px!important;
+	}
 }
 
 *{
-	font-smooth:always!important;
-	text-shadow: none!important; 
-	font-family:"Hiragino Sans GB","URW Gothic L","Droid Sans"!important;
+	font-size: 15px; 
 }
