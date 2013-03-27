@@ -2,7 +2,7 @@
 
 @font-face{
 
-	font-family:"URW Gothic L","Sans","Serif","Monospace","Hiragino Sans GB","WenQuanYi Micro Hei"!important;
+	font-family:"URW Gothic L","Sans","Serif","Monospace","Hiragino Sans GB","Droid Sans","WenQuanYi Micro Hei"!important;
 
 	src: url('../../includes/fonts/URW Bookman L.eot');
 	src: url('../../includes/fonts/URW Bookman L.eot?#iefix') format('eot'),
@@ -34,6 +34,12 @@
 	url('../../includes/fonts/Hiragino Sans GB.ttf') format('truetype'),
 	url('../../includes/fonts/Hiragino Sans GB.svg') format('svg');
 	
+	src: url('../../includes/fonts/Droid Sans.eot');
+	src: url('../../includes/fonts/Droid Sans.eot?#iefix') format('eot'),
+	url('../../includes/fonts/Droid Sans.woff') format('woff'),
+	url('../../includes/fonts/Droid Sans.ttf') format('truetype'),
+	url('../../includes/fonts/Droid Sans.svg') format('svg');
+	
 	src: url('../../includes/fonts/WenQuanYi Micro hei.eot');
 	src: url('../../includes/fonts/WenQuanYi Micro hei.eot?#iefix') format('eot'),
 	url('../../includes/fonts/WenQuanYi Micro hei.woff') format('woff'),
@@ -44,13 +50,21 @@
 	font-style: normal; 
 }
 
+@font-face {
+	font-family: "DisplayWQY"; 
+	unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
+	src:local("WenQuanYi Micro Hei");
+}
+
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	@font-face{
-		font-family:"URW Gothic L","Sans","Serif","Monospace","Hiragino Sans GB","WenQuanYi Micro Hei"!important;
+		font-family:"URW Gothic L","Sans","Serif","Monospace","Hiragino Sans GB","Droid Sans","WenQuanYi Micro Hei","DisplayWQY"!important;
 		src: url('../../includes/fonts/URW Gothic L.svg') format('svg');
 		src: url('../../includes/fonts/Sans.svg') format('svg');
 		src: url('../../includes/fonts/Monospace.svg') format('svg');
 		src: url('../../includes/fonts/Serif.svg') format('svg');
+		src: url('../../includes/fonts/Droid Sans.svg') format('svg');
 		src: url('../../includes/fonts/WenQuanYi Micro Hei.svg') format('svg');
 		src: url('../../includes/fonts/Hiragino Sans GB.svg') format('svg');
 	}
@@ -58,15 +72,20 @@
 
 body { -webkit-font-smoothing: antialiased !important; }
 
+
 h1,h2,h3,h4,h5,h6,b{
 	font-family:"Serif","WenQuanYi Micro Hei"!important;
 }
 
 a {
-	font-family: "WenQuanYi Micro Hei"!important;
+	font-family:"DisplayWQY","URW Gothic L"!important;
+}
+
+p {
+	font-size:15px!important;
 }
 *{
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family:"URW Gothic L","Sans","Serif","Monospace","Hiragino Sans GB","WenQuanYi Micro Hei"!important;
+	font-family:"URW Gothic L","Sans","Serif","Monospace","Hiragino Sans GB","Droid Sans","DisplayWQY","WenQuanYi Micro Hei"!important;
 }
