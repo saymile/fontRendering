@@ -12,7 +12,9 @@ body { -webkit-font-smoothing: antialiased !important; }
 p,li{
 	font-size:15px!important;
 }
-
+a {
+	font-family: "URW Gothic L","DisplayMYH"!important;
+}
 *{
 	font-smooth:always!important;
 	text-shadow: none!important; 
