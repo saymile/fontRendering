@@ -1,6 +1,5 @@
-/* /home/eric/.mozilla/firefox/mwad0hks.default/chrome/userContent.css */
-@namespace xul url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 /* Global Font Setting for firefox Content */
+@namespace xul url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
 @-moz-document domain(plus.google.com) {
 	div {
@@ -8,6 +7,16 @@
 	}
 }
 
+body { -webkit-font-smoothing: antialiased !important; }
+
+p,li{
+	font-size:15px!important;
+}
+
 *{
+	font-smooth:always!important;
+	text-shadow: none!important; 
+	advancedAntiAliasing: true;
 	font-size: 15px; 
+	font-family: "URW Gothic L","Hiragino Sans GB"!important;
 }

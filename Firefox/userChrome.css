@@ -1,10 +1,15 @@
-/* 
-*  /home/eric/.mozilla/firefox/mwad0hks.default/chrome/userChrome.css
-*  Global Font Setting for firefox UI 
-*/
+@font-face{
+	font-family: "DisplayMYH"; 
+	unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
+	src:local("Microsoft YaHei");
+}
 
-@namespace xul url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-*{	
+body { -webkit-font-smoothing: antialiased !important; }
 
-	font-family:"Open Sans","Droid Serif","Hiragino Sans GB"!important;
+*{
+	font-smooth:always!important;
+	text-shadow: none!important; 
+	
+	font-size: 15px; 
+	font-family: "URW Gothic L","DisplayMYH"!important;
 }
