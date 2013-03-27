@@ -1,9 +1,10 @@
+/* /home/eric/.qupzilla/profiles/default/Custom.css */
+body { -webkit-font-smoothing: antialiased !important; }
+li,span,p,input, code {
+	font-size: 15px!important; 
+}
 *{
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family:"Hiragino Sans GB","DejaVu Serif", "DejaVu Sans","URW Chancery L" !important;
-}
-body { -webkit-font-smoothing: antialiased !important; }
-input, code {
-	font-size: 15px!important; 
+	font-family:"URW Gothic L","Hiragino Sans GB","DejaVu Serif", "DejaVu Sans","URW Chancery L"!important;
 }

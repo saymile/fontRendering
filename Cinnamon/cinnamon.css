@@ -3,7 +3,7 @@
  * ... contains a few cinnamon specific styles (rare occurences) 
  * ###################################################################*/
 stage {
-	font-family: "Open Sans","WenQuanYi Micro Hei";
+	font-family: "URW Gothic L","Open Sans","WenQuanYi Micro Hei";
 }
 .cinnamon-link {
 	color: #0000ff;
@@ -103,9 +103,9 @@ StScrollBar StButton#vhandle:hover {
 .popup-menu {
 	color: #ffffff;
 	/* font-size: 9.5pt; */
-	font-family: "Open Sans"!important;
-	font-weight: normal;
-	font-size: 15px;
+	font-family: "URW Gothic L"!important;
+	font-weight: bold;
+	font-size: 17px;
 	min-width: 100px;
 }
 .popup-submenu-menu-item:open {
@@ -223,7 +223,7 @@ StScrollBar StButton#vhandle:hover {
 	/* background-color: #555555;*/
 	background-color: rgba(0,0,0,0.35);
 	/* font-size: 10pt; */
-	font-family: "Open Sans";
+	font-family: "URW Gothic L";
 	font-weight: Normal;
 	height: 25px; 
 }
@@ -1383,7 +1383,7 @@ StScrollBar StButton#vhandle:hover {
 	width: 350px;
 	/*height: 15px;*/
 	height: 20px;
-	font-family:"Droid Sans"!important;
+	font-family:"Open Sans"!important;
 	font-size: 11pt;
 	font-weight:bold;
 	transition-duration: 300;
