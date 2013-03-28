@@ -1,10 +1,25 @@
 /* /home/eric/.qupzilla/profiles/default/Custom.css */
-body { -webkit-font-smoothing: antialiased !important; }
-li,span,p,input, code {
-	font-size: 15px!important; 
+
+*[lang|="zh"]{ font-family: "Hiragino Sans GB"!important;}
+*[lang|="zh-CN"]{ font-family: "Hiragino Sans GB"!important;}
+*[lang|="en"] { font-family: "URW Gothic L","Hiragino Sans GB"!important;}
+*[lang|="en-us"]{ font-family: "URW Gothic L","Hiragino Sans GB"!important;}
+
+:lang(zh-CN) { font-family: "Hiragino Sans GB"!important;}
+:lang(zh) { font-family: "Hiragino Sans GB"!important;}
+:lang(en-us){ font-family: "URW Gothic L","Hiragino Sans GB"!important;}
+:lang(en){ font-family: "URW Gothic L","Hiragino Sans GB"!important;}
+
+body { 
+	-webkit-font-smoothing: antialiased !important; 
 }
+
+p,a,li {
+	font-size:15px!important;
+}
+
 *{
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family:"URW Gothic L","Hiragino Sans GB","DejaVu Serif", "DejaVu Sans","URW Chancery L"!important;
+	font-family: "URW Gothic L","Hiragino Sans GB"!important;
 }

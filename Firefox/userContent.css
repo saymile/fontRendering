@@ -1,6 +1,16 @@
 /* Global Font Setting for firefox Content */
 @namespace xul url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
+:lang(en){ font-family: "URW Gothic L","Serif","Monospace","DejaVu Serif","Nimbus Sans L","URW Chancery L","URW Bookman L"!important;}
+:lang(en-US){ font-family: "URW Gothic L","Serif","Monospace","DejaVu Serif","Nimbus Sans L","URW Chancery L","URW Bookman L"!important;}
+:lang(zh) { font-family: "Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+:lang(zh-CN) { font-family: "Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+
+*[lang|="en"] { font-family: "URW Gothic L","Serif","Monospace","DejaVu Serif","Nimbus Sans L","URW Chancery L","URW Bookman L"!important;}
+*[lang|="en-US"]{ font-family: "URW Gothic L","Serif","Monospace","DejaVu Serif","Nimbus Sans L","URW Chancery L","URW Bookman L"!important;}
+*[lang|="zh"]{ font-family: "Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+*[lang|="zh-CN"]{ font-family: "Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+
 @-moz-document domain(plus.google.com) {
 	div {
 		font-size: 15px!important;
@@ -9,12 +19,10 @@
 
 body { -webkit-font-smoothing: antialiased !important; }
 
-p,li{
-	font-size:15px!important;
+p,li,a{
+	font-size:15px;
 }
-a {
-	font-family: "URW Gothic L","DisplayMYH"!important;
-}
+
 *{
 	font-smooth:always!important;
 	text-shadow: none!important; 
@@ -22,3 +30,5 @@ a {
 	font-size: 15px; 
 	font-family: "URW Gothic L","Hiragino Sans GB"!important;
 }
+
+
