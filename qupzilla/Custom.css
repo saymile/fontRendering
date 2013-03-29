@@ -4,22 +4,21 @@ body {
 	-webkit-font-smoothing: antialiased !important; 
 }
 
-p,a,li {
-	font-size:15px!important;
+h1,h2,h3,h4,h5,a,b,span,strong {
+	font-family: "WenQuanYi Micro Hei";
 }
 
 *{
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family: "URW Gothic L","Hiragino Sans GB";
+	font-family: "Hiragino Sans GB","URW Gothic L","Open Sans";
 }
 
-*[lang|="zh"]{ font-family: "Hiragino Sans GB"!important;}
-*[lang|="zh-CN"]{ font-family: "Hiragino Sans GB"!important;}
-*[lang|="en"] { font-family: "URW Gothic L","Hiragino Sans GB"!important;}
-*[lang|="en-us"]{ font-family: "URW Gothic L","Hiragino Sans GB"!important;}
+*[lang|="en"] { font-family: "URW Gothic L","Open Sans";}
+*[lang|="en-US"]{ font-family: "URW Gothic L","Open Sans";}
 
-:lang(zh-CN) { font-family: "Hiragino Sans GB"!important;}
-:lang(zh) { font-family: "Hiragino Sans GB"!important;}
-:lang(en-us){ font-family: "URW Gothic L","Hiragino Sans GB"!important;}
-:lang(en){ font-family: "URW Gothic L","Hiragino Sans GB"!important;}
+:lang(en-US){ font-family: "URW Gothic L","Open Sans";}
+:lang(en){ font-family: "URW Gothic L","Open Sans";}
+
+
+
