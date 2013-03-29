@@ -6,18 +6,6 @@
 	src:local("WenQuanYi Micro Hei");
 }
 
-*[lang|="zh"] { font-family: "Hiragino Sans GB","WenQuanYi Micro Hei","AR PL UKai CN";}
-*[lang|="zh-CN"] { font-family: "Hiragino Sans GB","WenQuanYi Micro Hei","AR PL UKai CN";}
-
-*[lang|="en"] { font-family: "URW Gothic L","Open Sans";}
-*[lang|="en-us"]{  font-family: "URW Gothic L","Open Sans";}
-
-:lang(zh-CN) { font-family: "Hiragino Sans GB","WenQuanYi Micro Hei","AR PL UKai CN";}
-:lang(zh){ font-family: "Hiragino Sans GB","WenQuanYi Micro Hei","AR PL UKai CN";}
-
-:lang(en-us){font-family: "URW Gothic L","Open Sans";}
-:lang(en){ font-family: "URW Gothic L","Open Sans";}
-
 body { -webkit-font-smoothing: antialiased !important; }
 
 h1,h2,h3,h4,h5,h6,b,strong{
@@ -29,7 +17,8 @@ a{
 }
 
 *{
+	
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family:"URW Gothic L", "Hiragino Sans GB","DisplayWQY","WenQuanYi Micro Hei","Serif","Open Sans","Monospace"!important;
+	font-family:"URW Gothic L", "Hiragino Sans GB"!important;
 }
