@@ -1,9 +1,9 @@
 /* /home/eric/.opera/styles/user/custom.css */
 h1,h2,h3,h4,h5,h6,b{
-	font-family: "Serif","AR PL UKai CN"!important;
+	font-family: "URL Gothic L","WenQuanYi Micro Hei"!important;
 }
 * {
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family: "Open Sans","AR PL UKai CN","Hiragino Ssans GB W3","WenQuanYi Micro Hei"!important;
+	font-family: "Open Sans","Hiragino Ssans GB","WenQuanYi Micro Hei"!important;
 }

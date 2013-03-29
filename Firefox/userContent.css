@@ -9,10 +9,6 @@
 
 body { -webkit-font-smoothing: antialiased !important; }
 
-h1,h2,h3,h4,h5,h6,b.span.strong {
-	font-family: "Rachana","WenQuanYi Micro Hei"!important;
-}
-
 p,li{
 	font-size:15px!important;
 }
