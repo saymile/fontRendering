@@ -1,26 +1,35 @@
 /* /home/eric/.config/google-chrome/Default/User StyleSheets/Custom.css */
 
 @font-face {
-	font-family: "DisplayWQY"; 
+	font-family: "DisplayKT"; 
 	unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
-	src:local("WenQuanYi Micro Hei");
+	src:local("AR PL UKai CN");
 }
+
+*[lang|="zh"] { font-family: "Hiragino Sans GB","WenQuanYi Micro Hei","AR PL UKai CN";}
+*[lang|="zh-CN"] { font-family: "Hiragino Sans GB","WenQuanYi Micro Hei","AR PL UKai CN";}
+
+*[lang|="en"] { font-family: "URW Gothic L","Open Sans";}
+*[lang|="en-us"]{  font-family: "URW Gothic L","Open Sans";}
+
+:lang(zh-CN) { font-family: "Hiragino Sans GB","WenQuanYi Micro Hei","AR PL UKai CN";}
+:lang(zh){ font-family: "Hiragino Sans GB","WenQuanYi Micro Hei","AR PL UKai CN";}
+
+:lang(en-us){font-family: "URW Gothic L","Open Sans";}
+:lang(en){ font-family: "URW Gothic L","Open Sans";}
 
 body { -webkit-font-smoothing: antialiased !important; }
 
-h1,h2,h3,h4,h5,h6,b{
-	font-family:"Serif","WenQuanYi Micro Hei"!important;
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-family:"DisplayKT","Serif"!important;
 }
 
-a {
-	font-family:"DisplayWQY","URW Gothic L"!important;
+a{
+	font-family:"URW Gothic L","WenQuanYi Micro Hei"!important;
 }
 
-p {
-	font-size:15px!important;
-}
 *{
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family:"URW Gothic L","Serif","Monospace","Hiragino Sans GB","DisplayWQY","WenQuanYi Micro Hei"!important;
+	font-family:"URW Gothic L", "Hiragino Sans GB","DisplayKT","WenQuanYi Micro Hei","Serif","Open Sans","Monospace"!important;
 }

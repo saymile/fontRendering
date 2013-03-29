@@ -1,61 +1,26 @@
 /* /home/eric/.config/google-chrome/Default/User StyleSheets/Custom.css */
 
-@font-face{
-
-	font-family:"Droid Sans","Droid Serif","Open Sans","Hiragino Sans GB","WenQuanYi Micro Hei"!important;	
-
-	src: url('../../includes/fonts/Droid Sans.eot');
-	src: url('../../includes/fonts/Droid Sans.eot?#iefix') format('eot'),
-	url('../../includes/fonts/Droid Sans.woff') format('woff'),
-	url('../../includes/fonts/Droid Sans.ttf') format('truetype'),
-	url('../../includes/fonts/Droid Sans.svg') format('svg');
-	
-	src: url('../../includes/fonts/Open Sans.eot');
-	src: url('../../includes/fonts/Open Sans.eot?#iefix') format('eot'),
-	url('../../includes/fonts/Open Sans.woff') format('woff'),
-	url('../../includes/fonts/Open Sans.ttf') format('truetype'),
-	url('../../includes/fonts/Open Sans.svg') format('svg');
-
-	src: url('../../includes/fonts/Droid Serif.eot');
-	src: url('../../includes/fonts/Droid Serif.eot?#iefix') format('eot'),
-	url('../../includes/fonts/Droid Serif.woff') format('woff'),
-	url('../../includes/fonts/Droid Serif.ttf') format('truetype'),
-	url('../../includes/fonts/Droid Serif.svg') format('svg');
-
-	src: url('../../includes/fonts/Hiragino Sans GB.eot');
-	src: url('../../includes/fonts/Hiragino Sans GB.eot?#iefix') format('eot'),
-	url('../../includes/fonts/Hiragino Sans GB.woff') format('woff'),
-	url('../../includes/fonts/Hiragino Sans GB.ttf') format('truetype'),
-	url('../../includes/fonts/Hiragino Sans GB.svg') format('svg');
-	
-	src: url('../../includes/fonts/WenQuanYi Micro hei.eot');
-	src: url('../../includes/fonts/WenQuanYi Micro hei.eot?#iefix') format('eot'),
-	url('../../includes/fonts/WenQuanYi Micro hei.woff') format('woff'),
-	url('../../includes/fonts/WenQuanYi Micro hei.ttf') format('truetype'),
-	url('../../includes/fonts/WenQuanYi Micro hei.svg') format('svg');
-	
-	font-weight: normal;
-	font-style: normal; 
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	@font-face{
-		font-family:"Droid Sans","Droid Serif","Open Sans","Hiragino Sans GB","WenQuanYi Micro Hei"!important;	
-		src: url('../../includes/fonts/Droid Sans.svg') format('svg');
-		src: url('../../includes/fonts/Open Sans.svg') format('svg');
-		src: url('../../includes/fonts/Droid Serif.svg') format('svg');
-		src: url('../../includes/fonts/WenQuanYi Micro Hei.svg') format('svg');
-		src: url('../../includes/fonts/Hiragino Sans GB.svg') format('svg');
-	}
+@font-face {
+	font-family: "DisplayWQY"; 
+	unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
+	src:local("WenQuanYi Micro Hei");
 }
 
 body { -webkit-font-smoothing: antialiased !important; }
 
-h1,h2,h3,h4,h5,h6,b{
-	font-family:"Droid Serif","WenQuanYi Micro Hei"!important;
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-family:"Serif","WenQuanYi Micro Hei"!important;
+}
+
+a{
+	font-family:"DisplayWQY","URW Gothic L"!important;
+}
+
+p {
+	font-size:15px!important;
 }
 *{
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family:"Droid Sans","Droid Serif","Open Sans","Hiragino Sans GB","WenQuanYi Micro Hei"!important;	
+	font-family:"URW Gothic L","Hiragino Sans GB","DisplayWQY","WenQuanYi Micro Hei","Serif","Monospace"!important;
 }
