@@ -1,0 +1,25 @@
+/* Global Font Setting for firefox Content */
+@namespace xul url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+@-moz-document domain(plus.google.com) {
+	div {
+		font-size: 15px!important;
+	}
+}
+
+body { -webkit-font-smoothing: antialiased !important; }
+
+p,li{
+	font-size:15px;
+}
+
+a {
+	font-size:15px;
+	font-family: "URW Gothic L","WenQuanYi Micro Hei"!important;
+}
+*{
+	font-smooth:always!important;
+	text-shadow: none!important; 
+	advancedAntiAliasing: true;
+	font-family: "URW Gothic L","Hiragino Sans GB"!important;
+}
