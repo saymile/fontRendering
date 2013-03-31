@@ -9,7 +9,5 @@ body { -webkit-font-smoothing: antialiased !important; }
 *{
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	
-	font-size: 15px; 
 	font-family: "URW Gothic L","DisplayHiragino"!important;
 }
