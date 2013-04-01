@@ -8,7 +8,7 @@
 
 body { -webkit-font-smoothing: antialiased !important; }
 
-h1,h2,h3,h4,h5,h6,b,strong,a {
+h1,h2,h3,h4,h5,h6,b,strong,a,span {
 	font-family:"DisplayWQY","URW Gothic L"!important;
 }
 
@@ -16,5 +16,5 @@ h1,h2,h3,h4,h5,h6,b,strong,a {
 	
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family:"URW Gothic L", "Hiragino Sans GB"!important;
+	font-family:"URW Gothic L","Hiragino Sans GB","Serif","WenQuanYi Micro Hei Mono"!important;
 }
