@@ -1,24 +1,27 @@
+/* qupzilla css font rendering */
 /* /home/eric/.qupzilla/profiles/default/Custom.css */
 
 body { 
-	-webkit-font-smoothing: antialiased !important; 
+-webkit-font-smoothing: antialiased !important; 
 }
 
-h1,h2,h3,h4,h5,a,b,span,strong {
-	font-family: "WenQuanYi Micro Hei";
+@font-face {
+	font-family: "DisplayCN"; 
+	unicode-range: 
+	U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
+	src:local("WenQuanYi Micro Hei");
 }
+
+*[lang|="zh"] { font-family: "Hiragino Sans GB"!important;}
+*[lang|="zh-CN"]{ font-family: "Hiragino Sans GB"!important;}
+
+:lang(zh-CN){ font-family: "Hiragino Sans GB"!important;}
+:lang(zh){ font-family: "Hiragino Sans GB"!important;}
+
+body { -webkit-font-smoothing: antialiased !important; }
 
 *{
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family: "Hiragino Sans GB","URW Gothic L","Open Sans";
+	font-family: "URW Gothic L","Hiragino Sans GB","DisplayCN"!important;
 }
-
-*[lang|="en"] { font-family: "URW Gothic L","Open Sans";}
-*[lang|="en-US"]{ font-family: "URW Gothic L","Open Sans";}
-
-:lang(en-US){ font-family: "URW Gothic L","Open Sans";}
-:lang(en){ font-family: "URW Gothic L","Open Sans";}
-
-
-
