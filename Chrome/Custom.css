@@ -8,12 +8,20 @@
 
 body { -webkit-font-smoothing: antialiased !important; }
 
-h1,h2,h3,h4,h5,h6,b,strong,a{
+@media screen and (-webkit-min-device-pixel-ratio:0) {   /* this block is for centering groups.google.com content */
+	.GHSP2CYBJ5{
+		margin-right:300px!important;
+		margin-left:300px!important;
+	}
+}
+
+h1,h2,h3,h4,h5,h6,strong,a{
 	font-family:"DisplayWQY","URW Gothic L"!important;
 }
 
 *{
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family: "URW Gothic L","Hiragino Sans GB"!important;
+	font-family:"URW Gothic L","Hiragino Sans GB"!important;
 }
+

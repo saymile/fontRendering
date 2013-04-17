@@ -8,16 +8,29 @@
 }
 
 @-moz-document domain(*.creaders.net/*) {
-		* {font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+		* {font-size: 15px;  font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
 }
+
+/* Centerize Web Page Layout */
+@-moz-document domain(groups.google.com) {
+	.GHSP2CYBBED {
+		padding-left: 300px !important;
+		padding-right: 300px !important;
+	}
+}
+
+b,strong {
+	font-family: "WenQuanYi Micro Hei"!important;
+}
+
+*[lang|="zh"] {font-size: 15px; font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+*[lang|="zh-CN"]{font-size: 15px; font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+:lang(zh-CN){font-size: 15px;  font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+:lang(zh){font-size: 15px; font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
 
 body { -webkit-font-smoothing: antialiased !important; }
 
-a,strong {
-	font-family: "URW Gothic L","WenQuanYi Micro Hei"!important;
-}
 *{
-	font-size: 15px;
 	font-smooth:always!important;
 	text-shadow: none!important; 
 	advancedAntiAliasing: true;
