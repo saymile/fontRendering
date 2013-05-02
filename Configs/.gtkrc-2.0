@@ -1,6 +1,12 @@
 include ".gtkrc-2.0-gnome-color-chooser"
 
-gtk-font-name = "URW Gothic L"
+style "font"
+{
+      font_name = "URW Gothic L Book 11"
+}
+widget_class "*" style "font"
+gtk-font-name = "URW Gothic L Book 11"
+
 gtk-xft-dpi=96
 gtk-xft-antialias = 1 
 gtk-xft-hinting = 1

@@ -1,0 +1,27 @@
+/* ~/.config/epiphany/user-stylesheet.css*/
+*{ 
+	-webkit-font-smoothing: antialiased !important; 
+	-webkit-text-size-adjust: none;﻿
+}
+
+@font-face {
+	font-family: "DisplayHRG"; 
+	unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
+	src:local("Hiragino Sans GB");
+}
+
+*[lang|="en"] {font-family:"DisplayHRG","URW Gothic L"!important;}
+*[lang|="en-US"]{font-family:"DisplayHRG","URW Gothic L"!important;}
+:lang(en-US){ font-family:"DisplayHRG","URW Gothic L"!important;}
+:lang(en){ font-family:"DisplayHRG","URW Gothic L"!important;}
+
+p,li,tr,td,tab,div,span,input,label{
+	font-size: 15px!important;
+}
+
+body{
+	font-size: 15px;
+	font-smooth:always!important;
+	text-shadow: none!important; 
+   font-family: "DisplayHRG","URW Gothic L"!important;
+}

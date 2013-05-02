@@ -6,7 +6,9 @@
 	src:local("WenQuanYi Micro Hei");
 }
 
-body { -webkit-font-smoothing: antialiased !important; }
+body { 
+-webkit-font-smoothing: antialiased !important; 
+}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {   /* this block is for centering groups.google.com content */
 	.GHSP2CYBJ5{
@@ -15,7 +17,7 @@ body { -webkit-font-smoothing: antialiased !important; }
 	}
 }
 
-h1,h2,h3,h4,h5,h6,strong,a{
+h1,h2,h3,h4,h5,h6,strong,a,b{
 	font-family:"DisplayWQY","URW Gothic L"!important;
 }
 
@@ -24,4 +26,5 @@ h1,h2,h3,h4,h5,h6,strong,a{
 	text-shadow: none!important; 
 	font-family:"URW Gothic L","Hiragino Sans GB"!important;
 }
+
 

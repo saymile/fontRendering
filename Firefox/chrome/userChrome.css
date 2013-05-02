@@ -1,13 +1,15 @@
-@font-face{
-	font-family: "DisplayHiragino"; 
+@font-face {
+	font-family: "DisplayHRG";
 	unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
 	src:local("Hiragino Sans GB");
 }
 
-body { -webkit-font-smoothing: antialiased !important; }
+*{ 
+	-webkit-font-smoothing: antialiased !important; 
+	-webkit-box-shadow: none !important;
+	-webkit-text-size-adjust: none;﻿
 
-*{
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family: "URW Gothic L","DisplayHiragino"!important;
+	font-family: "URW Gothic L","DisplayHRG"!important;
 }

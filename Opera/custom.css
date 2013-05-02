@@ -1,9 +1,6 @@
 /* /home/eric/.opera/styles/user/custom.css */
-h1,h2,h3,h4,h5,h6,b,span,strong{
-	font-family: "Open Sans","WenQuanYi Micro Hei"!important;
-}
 * {
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family: "Open Sans","Hiragino Ssans GB","WenQuanYi Micro Hei"!important;
+	font-family: "Open Sans","Hiragino Sans GB"!important;
 }
