@@ -1,5 +1,4 @@
 /* Global Font Setting for firefox Content */
-@namespace xul url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 @font-face {
 	font-family: "DisplayHRG";
 	unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
@@ -28,24 +27,22 @@ b,strong {
 	font-family: "WenQuanYi Micro Hei"!important;
 }
 
-*[lang|="zh"] {font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
-*[lang|="zh-CN"]{font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
-:lang(zh-CN){font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
-:lang(zh){font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+*[lang|="zh"] {font-size: 15px; font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+*[lang|="zh-CN"]{font-size: 15px; font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+:lang(zh-CN){font-size: 15px; font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+:lang(zh){font-size: 15px; font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
 
-*[lang|="en"] {font-family:"DisplayHRG","URW Gothic L"!important;}
-*[lang|="en-US"]{font-family:"DisplayHRG","URW Gothic L"!important;}
-:lang(en-US){font-family:"DisplayHRG","URW Gothic L"!important;}
-:lang(en){font-family:"DisplayHRG","URW Gothic L"!important;}
+*[lang|="en"] {font-size: 15px; font-family:"DisplayHRG","URW Gothic L"!important;}
+*[lang|="en-US"]{font-size: 15px; font-family:"DisplayHRG","URW Gothic L"!important;}
+:lang(en-US){font-size: 15px; font-family:"DisplayHRG","URW Gothic L"!important;}
+:lang(en){font-size: 15px; font-family:"DisplayHRG","URW Gothic L"!important;}
 
-*{ 
+*{
 	-webkit-font-smoothing: antialiased !important; 
 	-webkit-box-shadow: none !important;
 	-webkit-text-size-adjust: none;﻿
-}
-
-body{
-	font-size: 15px;
+	
+	font-size: medium;
 	font-smooth:always!important;
 	text-shadow: none!important; 
 	advancedAntiAliasing: true;
