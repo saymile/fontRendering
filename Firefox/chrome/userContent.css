@@ -7,7 +7,7 @@
 
 @-moz-document domain(plus.google.com) {
 	div,button,label {
-		font-size: 15px!important;
+		font-size: 15px!important; 
 	}
 }
 
@@ -27,10 +27,10 @@ b,strong {
 	font-family: "WenQuanYi Micro Hei"!important;
 }
 
-*[lang|="zh"] {font-size: 15px; font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
-*[lang|="zh-CN"]{font-size: 15px; font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
-:lang(zh-CN){font-size: 15px; font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
-:lang(zh){font-size: 15px; font-family:"Hiragino Sans GB","WenQuanYi Micro Hei"!important;}
+*[lang|="zh"] {font-size: 15px; font-family: "URW Gothic L","Hiragino Sans GB"!important;}
+*[lang|="zh-CN"]{font-size: 15px; font-family: "URW Gothic L","Hiragino Sans GB"!important;}
+:lang(zh-CN){font-size: 15px; font-family: "URW Gothic L","Hiragino Sans GB"!important;}
+:lang(zh){font-size: 15px; font-family: "URW Gothic L","Hiragino Sans GB"!important;}
 
 *[lang|="en"] {font-size: 15px; font-family:"DisplayHRG","URW Gothic L"!important;}
 *[lang|="en-US"]{font-size: 15px; font-family:"DisplayHRG","URW Gothic L"!important;}
@@ -42,7 +42,7 @@ b,strong {
 	-webkit-box-shadow: none !important;
 	-webkit-text-size-adjust: none;﻿
 	
-	font-size: medium;
+	font-size: medium!important;
 	font-smooth:always!important;
 	text-shadow: none!important; 
 	advancedAntiAliasing: true;
