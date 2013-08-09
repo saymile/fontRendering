@@ -1,9 +1,9 @@
 /* /home/eric/.config/google-chrome/Default/User StyleSheets/Custom.css */
 
 @font-face {
-	font-family: "DisplayWQY"; 
+	font-family: "displayHSG"; 
 	unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
-	src:local("WenQuanYi Micro Hei");
+	src:local("Hiragino Sans GB");
 }
 
 body { 
@@ -18,7 +18,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6,strong,a,b{
-	font-family:"DisplayWQY","URW Gothic L"!important;
+	font-family:"displayHSG","URW Gothic L"!important;
 }
 
 *{
@@ -26,5 +26,3 @@ h1,h2,h3,h4,h5,h6,strong,a,b{
 	text-shadow: none!important; 
 	font-family:"URW Gothic L","Hiragino Sans GB"!important;
 }
-
-
