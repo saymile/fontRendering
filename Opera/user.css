@@ -1,14 +1,5 @@
 /* global font */
 /* /usr/share/opera/styles/user.css */
-*[lang|="zh"] {font-size: 15px; font-family: "Hiragino Sans GB"!important;}
-*[lang|="zh-CN"]{font-size: 15px; font-family: "Hiragino Sans GB"!important;}
-:lang(zh-CN){font-size: 15px; font-family: "Hiragino Sans GB"!important;}
-:lang(zh){font-size: 15px; font-family: "Hiragino Sans GB"!important;}
-
-*[lang|="en"] {font-size: 15px; font-family:"DejaVu Sans"!important;}
-*[lang|="en-US"]{font-size: 15px; font-family:"DejaVu Sans"!important;}
-:lang(en-US){font-size: 15px; font-family:"DejaVu Sans"!important;}
-:lang(en){font-size: 15px; font-family:"DejaVu Sans"!important;}
 
 * {
 	font-family: "Hiragino Sans GB"!important;
