@@ -1,5 +1,5 @@
 /* qupzilla css font rendering */
-/* /home/eric/.config/qupzilla/profiles/default/custome.css */
+/*/home/eric/.config/qupzilla/profiles/defaultes/default/Custom.css */
 
 *{ 
 -webkit-font-smoothing: antialiased !important; 
@@ -14,7 +14,7 @@
 body { -webkit-font-smoothing: antialiased !important; }
 
 b,strong{
-	font-family: "WenQuanYi Micro Hei"!important;
+	font-family: "Hiragino Sans GB"!important;
 }
 
 body{
