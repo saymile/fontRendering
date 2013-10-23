@@ -1,5 +1,5 @@
 /* qupzilla css font rendering */
-/* /home/eric/.config/qupzilla/profiles/default/custome.css*/
+/* /home/eric/.config/qupzilla/profiles/default/custom.css*/
 
 *{ 
 -webkit-font-smoothing: antialiased !important; 
@@ -20,5 +20,6 @@ b,strong{
 body{
 	font-smooth:always!important;
 	text-shadow: none!important; 
+	font-size:large!important;
 	font-family: "Hiragino Sans GB"!important;
 }
