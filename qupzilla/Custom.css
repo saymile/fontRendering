@@ -1,23 +1,16 @@
 /* qupzilla css font rendering */
 /* /home/eric/.config/qupzilla/profiles/default/custom.css*/
 
-*{ 
--webkit-font-smoothing: antialiased !important; 
-}
+*[lang|="en"] { font-family: "TR Century Gothic"!important;}
+*[lang|="en-US"]{ font-family: "TR Century Gothic"!important;}
 
-*[lang|="en"] { font-family: "URW Gothic L"!important;}
-*[lang|="en-US"]{ font-family: "URW Gothic L"!important;}
+:lang(en-US){ font-family: "TR Century Gothic"!important;}
+:lang(en){ font-family: "TR Century Gothic"!important;}
 
-:lang(en-US){ font-family: "URW Gothic L"!important;}
-:lang(en){ font-family: "URW Gothic L"!important;}
+* { 
+	-webkit-font-smoothing: antialiased !important; 
+	-webkit-font-smoothing: antialiased !important; 
 
-body { -webkit-font-smoothing: antialiased !important; }
-
-b,strong{
-	font-family: "Hiragino Sans GB"!important;
-}
-
-body{
 	font-smooth:always!important;
 	text-shadow: none!important; 
 	font-size:medium!important;
