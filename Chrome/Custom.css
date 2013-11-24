@@ -6,13 +6,10 @@
 	src:local("Hiragino Sans GB");
 }
 
-body { 
--webkit-font-smoothing: antialiased !important; 
-}
-
 *{
+	-webkit-font-smoothing: antialiased !important; 
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family:"URW Gothic L","Hiragino Sans GB"!important;
+	font-size: medium;
+	font-family:"TR Century Gothic","Hiragino Sans GB"!important;
 }
-
