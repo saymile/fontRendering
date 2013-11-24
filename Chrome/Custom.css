@@ -1,15 +1,18 @@
-/* /home/eric/.config/google-chrome/Default/User StyleSheets/Custom.css */
+/*/home/eric/.config/google-chrome/Default/User StyleSheets/Custom.csssustom.css */
 
 @font-face {
-	font-family: "displayHSG"; 
-	unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
-	src:local("Hiragino Sans GB");
+        font-family: "displayHSG"; 
+        unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
+        src:local("Hiragino Sans GB");
+}
+
+body{
+	   -webkit-font-smoothing: antialiased !important; 
 }
 
 *{
-	-webkit-font-smoothing: antialiased !important; 
-	font-smooth:always!important;
-	text-shadow: none!important; 
-	font-size: medium;
-	font-family:"TR Century Gothic","Hiragino Sans GB"!important;
+        font-smooth:always!important;
+        text-shadow: none!important; 
+        font-size: medium;
+        font-family:"displayHSG","TR Century Gothic"!important;
 }
