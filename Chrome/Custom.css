@@ -13,5 +13,5 @@ body{
 *{
         font-smooth:always!important;
         text-shadow: none!important; 
-        font-family:"displayHSG","TR Century Gothic"!important;
+        font-family:"displayHSG","Century Gothic", "Hiragino Sans GB"!important;
 }
