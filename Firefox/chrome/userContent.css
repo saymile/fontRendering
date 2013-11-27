@@ -11,9 +11,10 @@
 	-webkit-font-smoothing: antialiased !important; 
 	-webkit-box-shadow: none !important;
 	-webkit-text-size-adjust: none;﻿
-	
-	font-smooth:always!important;
+
 	text-shadow: none!important; 
 	advancedAntiAliasing: true;
+	font-size: medium;
+	font-smooth:always!important;	
 	font-family: "DisplayHRG","TR Century Gothic","Hiragino Sans GB"!important;
 }
