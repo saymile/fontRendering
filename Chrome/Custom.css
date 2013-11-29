@@ -8,6 +8,7 @@
 *{
 	-webkit-font-smoothing: subpixel-antialiased !important;
 	-webkit-transform: none !important;
+	
         font-smooth:always!important;
         text-shadow: none!important; 
         font-family:"displayHSG","Century Gothic", "Hiragino Sans GB"!important;

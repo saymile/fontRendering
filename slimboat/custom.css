@@ -4,11 +4,9 @@
 *{
 	-webkit-box-shadow: none !important;
 	-webkit-font-smoothing: antialiased !important;
-	-webkit-transform: none !important;
 
 	font-smooth:always!important;
 	text-shadow: none!important;
-	font-size: medium;
-	font-size-adjust: 1.0;
+	font-size: medium!important;
 	font-family: "WenQuanYi Micro Hei"!important;
 }﻿

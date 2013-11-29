@@ -1,17 +1,19 @@
 /* qupzilla css font rendering */
 /* /home/eric/.config/qupzilla/profiles/default/custom.css*/
 
-*[lang|="en"] { font-family: "URW Gothic L"!important;}
-*[lang|="en-US"]{ font-family: "URW Gothic L"!important;}
+*[lang|="en"] { font-family: "Droid Sans"!important;}
+*[lang|="en-US"]{ font-family: "Droid Sans"!important;}
 
-:lang(en-US){ font-family: "URW Gothic L"!important;}
-:lang(en){ font-family: "URW Gothic L"!important;}
+:lang(en-US){ font-family: "Droid Sans"!important;}
+:lang(en){ font-family: "Droid Sans"!important;}
 
 * { 
-	-webkit-font-smoothing: antialiased !important; 
+	-webkit-box-shadow: none !important;
+	-webkit-font-smoothing: antialiased !important;
+	-webkit-transform: none !important;	
 
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-size:medium;
-	font-family: "Hiragino Sans GB"!important;
+	font-size: medium;
+	font-family: "WenQuanYi Micro Hei"!important;
 }

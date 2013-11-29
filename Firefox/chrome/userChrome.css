@@ -1,12 +1,4 @@
-/* /home/eric/.mozilla/firefox/mwad0hks.default/chrome/userChrome.css */
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");﻿
-
-@font-face {
-	font-family: "DisplayHRG";
-	unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
-	src:local("Hiragino Sans GB");
-}
-
 
 *{ 
 	-webkit-font-smoothing: antialiased !important; 
@@ -15,5 +7,5 @@
 
 	font-smooth:always!important;
 	text-shadow: none!important; 
-	font-family: "URW Gothic L","Hiragino Sans GB"!important;
+	font-family: "TR Century Gothic","Hiragino Sans GB"!important;
 }
