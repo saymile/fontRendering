@@ -1,27 +1,14 @@
 /* Slimbaot */
 /* /home/eric/.local/share/data/FlashPeak/SlimBoat/custom.css */
+
 *{
--webkit-box-shadow: none !important;
--webkit-font-smoothing: antialiased !important;
-}
+	-webkit-box-shadow: none !important;
+	-webkit-font-smoothing: antialiased !important;
+	-webkit-transform: none !important;
 
-*[lang|="en"] {font-family:"URW Gothic L","Hiragino Sans GB"!important;}
-*[lang|="en-US"] {font-family:"URW Gothic L","Hiragino Sans GB"!important;}
-:lang(en-US) {font-family:"URW Gothic L","Hiragino Sans GB"!important;}
-:lang(en) {font-family:"URW Gothic L","Hiragino Sans GB"!important;}
-
-*[lang|="zh"] {font-family:"Hiragino Sans GB"!important;}
-*[lang|="zh-CN"]{font-family:"Hiragino Sans GB"!important;}
-:lang(zh-CN){font-family:"Hiragino Sans GB"!important;}
-:lang(zh){font-family:"Hiragino Sans GB"!important;}
-
-p,li,tr,td,tab,div,span,input,label,dt,dd,dl,a,span{
-	font-size: 11.5pt!important;
-}
-
-body {
-	font-size: large;
 	font-smooth:always!important;
 	text-shadow: none!important;
-	font-family: "Hiragino Sans GB"!important;
+	font-size: medium;
+	font-size-adjust: 1.0;
+	font-family: "WenQuanYi Micro Hei"!important;
 }﻿
