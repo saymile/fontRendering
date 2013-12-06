@@ -1,10 +1,16 @@
 /* Slimbaot */
 /* /home/eric/.local/share/data/FlashPeak/SlimBoat/custom.css */
 
+*[lang|="en"] { font-family: "ubuntu light"!important;}
+*[lang|="en-US"]{ font-family: "ubuntu light"!important;}
+
+:lang(en-US){ font-family: "ubuntu light"!important;}
+:lang(en){ font-family: "ubuntu light"!important;}
+
 *{
 	-webkit-box-shadow: none !important;
 	-webkit-font-smoothing: antialiased !important;
-
+	
 	font-smooth:always!important;
 	text-shadow: none!important;
 	font-size: medium!important;
