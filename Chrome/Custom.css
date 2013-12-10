@@ -6,7 +6,7 @@
 }
 
 *{
-	-webkit-font-smoothing: subpixel-antialiased !important;
+	-webkit-font-smoothing: antialiased !important;
 	-webkit-transform: none !important;
 	
         font-smooth:always!important;
