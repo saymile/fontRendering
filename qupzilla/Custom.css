@@ -1,3 +1,4 @@
+/* /home/eric/.config/qupzilla/profiles/default/custom.css */
 *[lang|="en"] { font-family: "ubuntu"!important;}
 *[lang|="en-US"]{ font-family: "ubuntu"!important;}
 
@@ -12,5 +13,5 @@
         font-smooth:always!important;
         text-shadow: none!important; 
         font-size: medium;
-        font-family: "Droid Sans"!important;
+        font-family: "WenQuanYi Micro Hei"!important;
 }
