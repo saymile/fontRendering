@@ -1,11 +1,11 @@
 /* Slimbaot */
 /* /home/eric/.local/share/data/FlashPeak/SlimBoat/custom.css */
 
-*[lang|="en"] { font-family: "ubuntu light"!important;}
-*[lang|="en-US"]{ font-family: "ubuntu light"!important;}
+*[lang|="en"] { font-family: "NanumGothic"!important;}
+*[lang|="en-US"]{ font-family: "NanumGothic"!important;}
 
-:lang(en-US){ font-family: "ubuntu light"!important;}
-:lang(en){ font-family: "ubuntu light"!important;}
+:lang(en-US){ font-family: "NanumGothic"!important;}
+:lang(en){ font-family: "NanumGothic"!important;}
 
 *{
 	-webkit-box-shadow: none !important;
