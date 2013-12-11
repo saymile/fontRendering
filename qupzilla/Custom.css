@@ -1,19 +1,16 @@
-/* qupzilla css font rendering */
-/* /home/eric/.config/qupzilla/profiles/default/custom.css*/
+*[lang|="en"] { font-family: "ubuntu"!important;}
+*[lang|="en-US"]{ font-family: "ubuntu"!important;}
 
-*[lang|="en"] { font-family: "Droid Sans"!important;}
-*[lang|="en-US"]{ font-family: "Droid Sans"!important;}
-
-:lang(en-US){ font-family: "Droid Sans"!important;}
-:lang(en){ font-family: "Droid Sans"!important;}
+:lang(en-US){ font-family: "ubuntu"!important;}
+:lang(en){ font-family: "ubuntu"!important;}
 
 * { 
-	-webkit-box-shadow: none !important;
-	-webkit-font-smoothing: antialiased !important;
-	-webkit-transform: none !important;	
+        -webkit-box-shadow: none !important;
+        -webkit-font-smoothing: antialiased !important;
+        -webkit-transform: none !important;        
 
-	font-smooth:always!important;
-	text-shadow: none!important; 
-	font-size: medium;
-	font-family: "WenQuanYi Micro Hei"!important;
+        font-smooth:always!important;
+        text-shadow: none!important; 
+        font-size: medium;
+        font-family: "Droid Sans"!important;
 }
