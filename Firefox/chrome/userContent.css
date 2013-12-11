@@ -9,9 +9,6 @@
 
 *{
 	-webkit-font-smoothing: antialiased !important; 
-        -webkit-box-shadow: none !important;
-        -webkit-text-size-adjust: none;﻿
-
         text-shadow: none!important; 
         advancedAntiAliasing: true;
         font-size: medium;
