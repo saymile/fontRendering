@@ -9,6 +9,7 @@
 
 *{
 	-webkit-font-smoothing: antialiased !important; 
+       
         text-shadow: none!important; 
         advancedAntiAliasing: true;
         font-size: medium;
