@@ -1,11 +1,24 @@
 /* Slimbaot */
 /* /home/eric/.local/share/data/FlashPeak/SlimBoat/custom.css */
 
-*[lang|="en"] { font-family: "NanumGothic"!important;}
-*[lang|="en-US"]{ font-family: "NanumGothic"!important;}
+@font-face {
+        font-family: "displayHSG"; 
+        unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
+        src:local("WenQuanYi Micro Hei");
+}
 
-:lang(en-US){ font-family: "NanumGothic"!important;}
-:lang(en){ font-family: "NanumGothic"!important;}
+*[lang|="zh"]{ font-family: "WenQuanYi Micro Hei"!important;}
+ *[lang|="zh-CN"]{ font-family: "WenQuanYi Micro Hei"!important;}
+ 
+:lang(zh-CN) { font-family: "WenQuanYi Micro Hei"!important;}
+:lang(zh) { font-family: "WenQuanYi Micro Hei"!important;}
+ 
+*[lang|="en"] { font-family: "Hiragino Sans GB"!important;}
+*[lang|="en-US"]{ font-family: "Hiragino Sans GB"!important;}
+
+:lang(en-US){ font-family: "Hiragino Sans GB"!important;}
+:lang(en){ font-family: "Hiragino Sans GB"!important;}
+
 
 *{
 	-webkit-box-shadow: none !important;
