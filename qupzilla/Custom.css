@@ -1,9 +1,15 @@
-/* /home/eric/.config/qupzilla/profiles/default/custom.css */
-*[lang|="en"] { font-family: "ubuntu"!important;}
-*[lang|="en-US"]{ font-family: "ubuntu"!important;}
+@font-face {
+        font-family: "displayWQY"; 
+        unicode-range: U+4E00-9FFF, U+3400-4DFF,U+20000-2A6DF,U+F900-FAFF,U+2F800-2FA1F;
+        src:local("WenQuanYi Micro Hei");
+}
 
-:lang(en-US){ font-family: "ubuntu"!important;}
-:lang(en){ font-family: "ubuntu"!important;}
+*[lang|="en"] { font-family: "URW Gothic L"!important;}
+*[lang|="en-US"]{ font-family: "URW Gothic L"!important;}
+
+:lang(en-US){ font-family: "URW Gothic L"!important;}
+:lang(en){ font-family: "URW Gothic L"!important;}
+
 
 * { 
         -webkit-box-shadow: none !important;
@@ -13,5 +19,5 @@
         font-smooth:always!important;
         text-shadow: none!important; 
         font-size: medium;
-        font-family: "WenQuanYi Micro Hei"!important;
+        font-family: "displayWQY","URW Gothic L"!important;
 }
