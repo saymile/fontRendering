@@ -13,11 +13,11 @@
 :lang(zh-CN) { font-family: "WenQuanYi Micro Hei"!important;}
 :lang(zh) { font-family: "WenQuanYi Micro Hei"!important;}
  
-*[lang|="en"] { font-family: "Hiragino Sans GB"!important;}
-*[lang|="en-US"]{ font-family: "Hiragino Sans GB"!important;}
+*[lang|="en"] { font-family: "URW Gothic L"!important;}
+*[lang|="en-US"]{ font-family: "URW Gothic L"!important;}
 
-:lang(en-US){ font-family: "Hiragino Sans GB"!important;}
-:lang(en){ font-family: "Hiragino Sans GB"!important;}
+:lang(en-US){ font-family: "URW Gothic L"!important;}
+:lang(en){ font-family: "URW Gothic L"!important;}
 
 
 *{
