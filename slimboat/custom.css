@@ -21,9 +21,7 @@
 
 
 *{
-	-webkit-box-shadow: none !important;
 	-webkit-font-smoothing: antialiased !important;
-	
 	font-smooth:always!important;
 	text-shadow: none!important;
 	font-size: medium!important;
