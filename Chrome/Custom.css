@@ -7,9 +7,8 @@
 
 *{
 	-webkit-font-smoothing: antialiased !important;
-	-webkit-transform: none !important;
-	
-        font-smooth:always!important;
+	    font-smooth:always!important;
         text-shadow: none!important; 
-        font-family:"displayHSG","Century Gothic", "Hiragino Sans GB"!important;
+        font-size: medium;
+        font-family:"displayHSG","TR Century Gothic", "Hiragino Sans GB"!important;
 }
