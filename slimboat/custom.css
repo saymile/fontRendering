@@ -13,17 +13,17 @@
 :lang(zh-CN) { font-family: "WenQuanYi Micro Hei"!important;}
 :lang(zh) { font-family: "WenQuanYi Micro Hei"!important;}
  
-*[lang|="en"] { font-family: "URW Gothic L"!important;}
-*[lang|="en-US"]{ font-family: "URW Gothic L"!important;}
+*[lang|="en"] { font-family: "Open Sans"!important;}
+*[lang|="en-US"]{ font-family: "Open Sans"!important;}
 
-:lang(en-US){ font-family: "URW Gothic L"!important;}
-:lang(en){ font-family: "URW Gothic L"!important;}
+:lang(en-US){ font-family: "Open Sans"!important;}
+:lang(en){ font-family: "Open Sans"!important;}
 
 
 *{
-	-webkit-font-smoothing: antialiased !important;
-	font-smooth:always!important;
-	text-shadow: none!important;
-	font-size: medium!important;
-	font-family: "displayWQY","Hiragino Sans GB","Droid Sans"!important;
+        -webkit-font-smoothing: antialiased !important;
+        font-smooth:always!important;
+        text-shadow: none!important;
+        font-size: medium!important;
+        font-family: "displayWQY","Open Sans"!important;
 }﻿
